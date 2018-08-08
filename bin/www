@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const app = require('../app');
+
+const devPort = 3000;
+
+app.listen(devPort, () => {
+    console.log(`Server is listening on port: ${devPort}`);
+});
